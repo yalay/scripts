@@ -28,7 +28,7 @@ git clone -b v2.5 https://github.com/camenduru/ui
 git clone https://github.com/camenduru/sd-civitai-browser /content/ui/extensions/sd-civitai-browser
 # !git clone https://github.com/camenduru/control /content/ui/extensions/control
 # !git clone https://github.com/fkunn1326/openpose-editor /content/ui/extensions/openpose-editor
-git clone https://github.com/camenduru/tunnels /content/ui/extensions/tunnels
+# git clone https://github.com/camenduru/tunnels /content/ui/extensions/tunnels
 git clone https://github.com/etherealxx/batchlinks-webui /content/ui/extensions/batchlinks-webui
 cd /content/ui
 git reset --hard
