@@ -42,4 +42,4 @@ sed -i -e '''/from modules import launch_utils/a\import os''' /content/ui/launch
 sed -i -e '''/        prepare_environment()/a\        os.system\(f\"""sed -i -e ''\"s/dict()))/dict())).cuda()/g\"'' /content/ui/repositories/stable-diffusion-stability-ai/ldm/util.py""")''' /content/ui/launch.py
 sed -i -e 's/\["sd_model_checkpoint"\]/\["sd_model_checkpoint","sd_vae","CLIP_stop_at_last_layers"\]/g' /content/ui/modules/shared.py
 
-python launch.py --listen --xformers --enable-insecure-extension-access --theme dark --gradio-queue
+python /content/scripts/colab/run.py
