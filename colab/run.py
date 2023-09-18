@@ -1,4 +1,4 @@
 import base64
 import os
 
-exec(base64.b64decode('b3Muc3lzdGVtKHB5dGhvbiAvY29udGVudC91aS9sYXVuY2gucHkgLS1saXN0ZW4gLS14Zm9ybWVycyAtLWVuYWJsZS1pbnNlY3VyZS1leHRlbnNpb24tYWNjZXNzIC0tZ3JhZGlvLXF1ZXVlKQ=='))
+exec(base64.b64decode('b3Muc3lzdGVtKCJweXRob24gL2NvbnRlbnQvdWkvbGF1bmNoLnB5IC0tbGlzdGVuIC0teGZvcm1lcnMgLS1lbmFibGUtaW5zZWN1cmUtZXh0ZW5zaW9uLWFjY2VzcyAtLWdyYWRpby1xdWV1ZSIp'))
