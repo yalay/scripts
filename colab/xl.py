@@ -41,5 +41,3 @@ git -C /content/ui/repositories/stable-diffusion-stability-ai reset --hard
 sed -i -e '''/from modules import launch_utils/a\import os''' /content/ui/launch.py
 sed -i -e '''/        prepare_environment()/a\        os.system\(f\"""sed -i -e ''\"s/dict()))/dict())).cuda()/g\"'' /content/ui/repositories/stable-diffusion-stability-ai/ldm/util.py""")''' /content/ui/launch.py
 sed -i -e 's/\["sd_model_checkpoint"\]/\["sd_model_checkpoint","sd_vae","CLIP_stop_at_last_layers"\]/g' /content/ui/modules/shared.py
-
-python /content/scripts/colab/run.py
